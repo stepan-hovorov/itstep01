@@ -1,9 +1,9 @@
-def gaget_poower(base, bonus):
+
+def gaget_poower(base, bonus = 10):
     print(base+bonus)
     return base+bonus
-power = gaget_poower(50,20)
-print("Downloud: ",  power)
-if power >=70:
-    print("gadget ready")
-else:
-    print("gadget not ready")
+
+gaget_poower(10, 20)
+gaget_poower(5)
+
+
